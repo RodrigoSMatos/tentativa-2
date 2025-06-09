@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  background-color: #f5f6fa;
+}
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f6fa; /* cor do fundo da página */
+}
+
+
+input {
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+table {
+  border-collapse: collapse;
+}
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+th {
+  background-color: #0d6efd;
+  color: white;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
